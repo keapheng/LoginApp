@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
 
         dialog = new AlertDialog.Builder(MainActivity.this).create();
-        dialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+        dialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                 new DialogInterface.OnClickListener(){
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();

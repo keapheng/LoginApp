@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imagebackground"
+    android:background="@drawable/image"
     tools:context=".MainActivity">
 
 
@@ -51,10 +51,10 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
-        android:padding="8dp"
+        android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="@android:color/secondary_text_dark"
-        android:textSize="10sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,10 +75,10 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:padding="8dp"
+        android:padding="10dp"
 
         android:textColorHint="@android:color/secondary_text_dark"
-        android:textSize="10sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
